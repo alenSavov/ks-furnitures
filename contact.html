@@ -1,0 +1,53 @@
+---
+layout: main
+title: Contact
+permalink: /contact/
+---
+
+<div class="contact-wrapper">
+
+    <div class="title-wrapper">
+        <h2 class="contact-title">{{page.title}}</h2>
+        <p>Ако искаш да се свържеш с мен, имаш въпроси, идеи, предложения, искаш да реализираш НЕтипична идея или имаш въпроси от друго естество,
+            които те вълнуват, може да ги споделиш с мен в контактната форма по-долу. </p>
+    </div>
+
+    <section class="contact-form-wrapper">
+        <form action="" method="post">
+
+            <div>
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Your full name.." required>
+            </div>
+
+            <div>
+                <label for="email">Email*</label>
+                <input type="text" id="email" name="email" placeholder="Your email address.." required>
+            </div>
+
+            <div>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" required placeholder="Write something.."></textarea>
+            </div>
+
+            <div class="form-button-wrapper">
+            <a href="" type="submit" class="button button-primary ">Send Message</a>
+            </div>
+        </form>
+    </section>
+
+    <section class="contacts">
+        <h3>СВЪРЖЕТЕ СЕ С МЕН</h3>
+
+        <p>Телефон: <a href="tel:{{site.mobile-number}}">0897393577</a></p>
+        <p>Емайл: <a href="mailto:{{site.email}}">{{site.email}}</a> </p>
+    </section>
+
+    <section class="follow-me">
+        <h3>СЛЕДВАЙТЕ МЕ</h3>
+        <ul>
+            <li><a href="{{site.facebook-link}}" class="icon icon-brand icon-facebook">Костадин Савов</a></li>
+            <li><a href="{{site.instagram-link}}" class="icon icon-brand icon-instagram">kostadin7</a></li>
+        </ul>
+    </section>
+</div>
