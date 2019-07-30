@@ -1,5 +1,5 @@
 .site-header {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 150, 0.4)), url("../../images/Kostadin-image-2.jpg") no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 150, 0.4)), url("../images/Kostadin-image-2.jpg") no-repeat center center;
     background-size: cover;
     overflow: hidden;
     display: flex;
