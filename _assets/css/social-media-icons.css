@@ -1,0 +1,18 @@
+.icon:before{
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding-right: 1em;
+}
+
+.icon-brand:before{
+    font-family: "Font Awesome 5 Brands";
+}
+
+.icon-instagram:before{
+    content: '\f16d';
+}
+
+.icon-facebook:before{
+    content: '\f39e';
+}

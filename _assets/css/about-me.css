@@ -1,0 +1,10 @@
+.about-me-wrapper {
+    font: var(--font-size-body)/1.9 "Muli", sans-serif;
+    color: rgb(42,47,54);
+}
+
+.about-me-wrapper p {
+    color: var(--color-body-text);
+    font-size: 1.1em;
+    letter-spacing: 1.3px;
+}

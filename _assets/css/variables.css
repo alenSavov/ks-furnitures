@@ -1,0 +1,23 @@
+:root {
+    --font-size-body: 14px;
+    --font-size-body-larger: 16px;
+    --font-size-body-big: 18px;
+    --font-size-body-huge: 20px;
+    --font-size-article: 18px;
+
+    --layout-main-width: 60em;
+
+    --color-body-text: rgb(108, 122, 137);
+    --color-body-bgrd: #FFF;
+    --color-header-link: rgb(185, 199, 203);
+    --color-background-gray: rgb(108, 122, 137);
+    --color-primary-blue: rgb(162, 221, 222);
+
+    --color-border-default: #999;
+
+    --spacing-layout-elements: 2em;
+
+    /*Buttons*/
+    --color-primary-blue-button: rgb(162, 221, 222);
+
+}

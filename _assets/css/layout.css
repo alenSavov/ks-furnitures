@@ -1,0 +1,16 @@
+.main-wrapper{
+    display: grid;
+    grid-template-columns: 20vw auto;
+}
+
+.site-header {
+    position: fixed;
+    width: 20vw;
+    height: 100%;
+}
+
+.site-main {
+    grid-column-start: 2;
+    padding-left: 2em;
+}
+

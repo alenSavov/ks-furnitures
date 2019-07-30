@@ -1,0 +1,169 @@
+.contact-wrapper {
+    display: flex;
+    flex: 0 0 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--color-body-bgrd);
+}
+
+.title-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.contact-wrapper h2 {
+    font-size: 3.3em;
+    flex: 0 0 80%;
+    margin: 0;
+    color: rgb(70, 81, 84);
+}
+
+.title-wrapper p {
+    flex: 0 0 80%;
+    color: var(--color-background-gray);
+    font-weight: 300;
+    font: 16px /1.5 'Muli', sans-serif;
+}
+
+.contact-form-wrapper {
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+    background-color: rgb(245, 247, 250);
+    justify-content: center;
+    padding: 1em 0;
+}
+
+.contact-form-wrapper form {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(245, 247, 250);
+
+    flex: 0 0 80%;
+    justify-content: center;
+}
+
+.contact-form-wrapper form div {
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+    border: none;
+    margin: 0.6em 0;
+
+}
+
+.contact-form-wrapper form div label{
+    flex: 0 0 100%;
+    color: rgb(108, 122, 137);
+    font-size: 1.4em;
+}
+
+.contact-form-wrapper form div input{
+    flex: 0 0 100%;
+    padding: 0.7em 0;
+    border: 2px solid rgb(221, 221, 221);
+}
+
+.contact-form-wrapper form div input::placeholder,
+.contact-form-wrapper form div textarea::placeholder{
+    color: rgb(212, 218, 218);
+    padding: 1.5em 1em;
+}
+
+.contact-form-wrapper form div textarea{
+    flex: 0 0 100%;
+    height: 200px;
+    border: 2px solid rgb(221, 221, 221);
+}
+.contact-form-wrapper form div textarea:hover,
+.contact-form-wrapper form div input:hover{
+    border-color: var(--color-primary-blue)
+}
+
+.contact-form-wrapper form div textarea:focus,
+.contact-form-wrapper form div input:focus{
+    border-color: var(--color-primary-blue);
+    outline: none;
+}
+
+.form-button-wrapper {
+    display: flex;
+    flex: 0 0 100%;
+    justify-content: flex-start;
+}
+
+.contact-form-wrapper form a[type=submit]{
+    padding: 1em 5em;
+    font-size: 1.2em;
+}
+
+/* Contacts Section */
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 80%;
+    margin: 3em 0;
+    justify-content: flex-start;
+}
+
+.contacts h3{
+    color: rgb(70, 81, 84);
+    flex: 0 0 100%;
+}
+
+.contacts p {
+    flex: 0 0 100%;
+    color: rgb(70, 81, 84);
+    font-size: 1.3em;
+    margin: 0.3em 0;
+}
+
+.contacts p a{
+    text-decoration: none;
+    color: var(--color-primary-blue);
+}
+
+/*Follow Me Section */
+
+.follow-me{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 80%;
+}
+
+.follow-me h3{
+
+    flex: 0 0 100%;
+    color: rgb(70, 81, 84);
+}
+
+.follow-me ul{
+    flex: 0 0 100%;
+    list-style: none;
+}
+
+.follow-me ul li{
+    flex: 0 0 100%;
+    margin: 0.7em 0;
+}
+
+.follow-me ul li a.icon-instagram{
+    color:red;
+    font-size: 1.6em;
+    text-decoration: none;
+}
+
+
+.follow-me ul li a.icon-facebook{
+    color: rgb(59,89,152);
+    font-size: 1.6em;
+    text-decoration: none;
+}
+
+
+
+
