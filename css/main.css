@@ -84,5 +84,11 @@ article.article{
 
 .article-button-wrapper a{
     font-size: 1.2em;
+    border: 2px solid var(--color-primary-blue);
+}
+
+.article-button-wrapper a:hover{
+    color: var(--color-primary-blue);
+    background-color: white;
 }
 
