@@ -37,7 +37,7 @@
 }
 
 .gallery li{
-    box-shadow: 1px 0px 32px -10px #000000;
+    box-shadow: 1px 0px 15px -10px #000000;
     transition: all .2s ease-in-out;
 }
 
