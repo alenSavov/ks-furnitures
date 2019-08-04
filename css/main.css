@@ -13,49 +13,6 @@
     flex-wrap: wrap;
 }
 
-article.article{
-    display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 100%;;
-}
-
-.article-header{
-    flex: 0 0 100%;
-    margin-bottom: 1.5em;
-}
-
-.article-title{
-
-    display: block;
-    padding-left: 8%;
-    font-size: 2.8em;
-    font-weight: 500;
-    margin-top: 1em;
-    color: rgb(42,47,54);
-}
-
-.article-date{
-    display: block;
-    padding-left: 8%;
-    margin-top: -1em;
-    font-size: 1.5em;
-    color: rgb(171, 183, 183);
-}
-
-.article-image{
-    display: flex;
-    flex: 0 0 100%;
-}
-
-.article-image img{
-    overflow: hidden;
-    flex: 0 0 100%;
-    height: 38.700em;
-    background-size: cover;
-
-}
-
-
 .content-wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -64,31 +21,7 @@ article.article{
     margin: 3em 0;
 }
 
-.article-content{
-    flex: 0 0 80%;
-    flex-wrap: wrap;
-    color: var(--color-article-content);
 
-}
 
-.article-button-wrapper{
-    display: flex;
-    flex: 0 0 80%;
-    justify-content: flex-start;
-}
 
-.article-button-wrapper{
-    align-items: center;
-    margin-top: 2em;
-}
-
-.article-button-wrapper a{
-    font-size: 1.2em;
-    border: 2px solid var(--color-primary-blue);
-}
-
-.article-button-wrapper a:hover{
-    color: var(--color-primary-blue);
-    background-color: white;
-}
 
