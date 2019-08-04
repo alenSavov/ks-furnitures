@@ -5,6 +5,7 @@
     background-color: var(--color-body-bgrd);
     overflow: hidden;
     padding: 3em 3em;
+    max-width: 1800px;
 }
 
 .main-content {
