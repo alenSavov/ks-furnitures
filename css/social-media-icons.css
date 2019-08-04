@@ -1,18 +1,79 @@
-.icon:before{
-    display: inline-block;
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    padding-right: 1em;
+.social-media {
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    flex: 0 0 100%;
+    cursor: pointer;
+    list-style: none;
+    align-items: center;
+    height: 5em;
 }
 
-.icon-brand:before{
-    font-family: "Font Awesome 5 Brands";
+
+.social-media li {
+    list-style: none;
 }
 
-.icon-instagram:before{
-    content: '\f16d';
+.social-media li a {
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    text-align: center;
+    line-height: 41px;
+    font-size: 23px;
+    margin: 0 4px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
 }
 
-.icon-facebook:before{
-    content: '\f39e';
+.social-media li a .fab {
+    position: relative;
+    color: #262626;
+    transition: 0.5s;
+    z-index: 3;
+}
+
+.social-media li a:hover .fab {
+    color: #fff;
+    transform: rotateY(360deg);
+
+}
+
+.social-media li a:before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+}
+
+.social-media li a:hover:before{
+    top: 0;
+}
+
+.social-media li:nth-child(1) a:before{
+    background: #3b5999;
+}
+
+.social-media li:nth-child(2) a:before{
+    background: #e4405f;
+}
+
+.social-media li:nth-child(3) a:before{
+    background: #55acee;
+}
+
+.social-media li:nth-child(4) a:before{
+    background: #dd4b39;
 }

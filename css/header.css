@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     justify-content: center;
     flex: 0 0 100%;
-    box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .site-header-navigation {
@@ -24,107 +24,50 @@
     height: 3em;
 }
 
-.site-header-navigation h1 a{
+.site-header-navigation h1 a {
     color: var(--color-body-bgrd);
     font-size: 25px;
     text-decoration: none;
 
 }
 
-.site-header h1 a:after{
+.site-header h1 a:after {
     content: 'Костадин Савов';
     display: block;
     font-size: 0.6em;
     font-style: italic;
 }
 
-.site-header-nav{
+.site-header-nav {
     display: flex;
     flex-wrap: wrap;
     flex: 0 0 100%;
     margin-top: 230px;
 }
 
-.site-header-nav li{
+.site-header-nav li {
     flex: 0 0 100%;
     display: flex;
     justify-content: center;
+    margin: 0.5em 0;
 }
 
-.site-header-nav li a{
+.site-header-nav li a {
     text-decoration: none;
     color: var(--color-header-link);
     font-size: 1.8em;
 }
 
-.site-header-nav li a:hover{
+.site-header-nav li a:hover {
     color: var(--color-body-bgrd);
 }
 
 
-section.header-social{
+section.header-social {
     display: flex;
     flex: 0 0 100%;
     align-items: center;
     max-width: 100%;
     justify-content: space-around;
 }
-
-ul.social-media {
-    display: flex;
-    flex: 0 0 100%;
-    cursor: pointer;
-    list-style: none;
-    align-items: center;
-    justify-content: space-around;
-    height: 5em;
-    padding: 0 3em;
-
-
-}
-
-ul.social-media li {
-    display: flex;
-    justify-content: center;
-    flex: 0 0 14%;
-    background-color: var(--color-header-link);
-    border-radius: 100%;
-    padding: 5px 5px;
-}
-
-ul.social-media li:hover {
-    background-color: var(--color-body-bgrd);
-}
-
-/*ul.social-media li:nth-child(1):hover {*/
-/*    background-color: #3b5999;*/
-/*}*/
-
-/*ul.social-media li:nth-child(2):hover {*/
-/*    background-color: #55acee;*/
-/*}*/
-
-/*ul.social-media li:nth-child(3):hover {*/
-/*    background-color: #dd4b39;*/
-/*}*/
-
-/*ul.social-media li:nth-child(4):hover {*/
-/*    background-color: #55acee;*/
-/*}*/
-
-/*ul.social-media li:nth-child(5):hover {*/
-/*    background-color: #e4405f;*/
-/*}*/
-
-
-ul.social-media > li > a {
-    color: black;
-    align-items: center;
-    font-size: 1.2em;
-}
-
-/*ul.social-media > li > a:hover {*/
-/*    color: var(--color-body-bgrd);*/
-/*}*/
-
 
