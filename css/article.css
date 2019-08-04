@@ -1,7 +1,8 @@
 article.article{
     display: flex;
     flex-wrap: wrap;
-    flex: 0 0 100%;;
+    flex: 0 0 100%;
+    margin-bottom: 5em;
 }
 
 .article-header{
@@ -10,14 +11,14 @@ article.article{
 }
 
 .article-title{
-
     display: block;
     padding-left: 8%;
-    font-size: 2.8em;
+    font-size: 3.3em;
     font-weight: 500;
-    margin-top: 1em;
     color: rgb(42,47,54);
 }
+
+
 
 .article-date{
     display: block;

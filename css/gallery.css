@@ -2,12 +2,12 @@
     width: 80vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .gallery-title {
     flex: 0 0 100%;
-    text-align: center;
+    /*text-align: center;*/
     font-size: 3.5em;
 }
 

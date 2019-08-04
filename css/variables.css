@@ -20,4 +20,10 @@
     /*Buttons*/
     --color-primary-blue-button: rgb(162, 221, 222);
 
+
+
+
+    /* Articles in projects */
+    --article-title-color-in-project: rgb(42, 47, 54);
+
 }
