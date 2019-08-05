@@ -58,7 +58,7 @@
     align-items: center;
     overflow: hidden;
     height: 38.700em;
-    transition: 0.7s ease;
+    transition: 0.7s ease-out;
     pointer-events: none;
 }
 
