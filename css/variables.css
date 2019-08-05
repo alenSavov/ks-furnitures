@@ -1,29 +1,34 @@
 :root {
+    /*BODY AND LAYOUT*/
     --font-size-body: 14px;
     --font-size-body-larger: 16px;
     --font-size-body-big: 18px;
     --font-size-body-huge: 20px;
-    --font-size-article: 18px;
 
     --layout-main-width: 60em;
 
     --color-body-text: rgb(108, 122, 137);
     --color-body-bgrd: #FFF;
-    --color-header-link: rgb(185, 199, 203);
-    --color-background-gray: rgb(108, 122, 137);
-    --color-primary-blue: rgb(162, 221, 222);
-
-    --color-border-default: #999;
 
     --spacing-layout-elements: 2em;
+
+
+    /*HEADER*/
+    --color-header-link: #FFF;
+    --color-header-link-hover: rgb(183, 194, 198);
+
+
+    --color-background-gray: rgb(108, 122, 137);
+    --color-primary-blue: rgb(162, 221, 222);
+    --color-border-default: #999;
+
 
     /*Buttons*/
     --color-primary-blue-button: rgb(162, 221, 222);
 
 
-
-
-    /* Articles in projects */
+    /* Articles */
     --article-title-color-in-project: rgb(42, 47, 54);
+    --font-size-article: 18px;
 
 }

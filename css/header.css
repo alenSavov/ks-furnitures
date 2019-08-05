@@ -15,7 +15,6 @@
     flex: 0 0 100%;
     justify-content: center;
     align-items: center;
-    pading-top: 5em;
 }
 
 .site-header-navigation h1 {
@@ -25,7 +24,7 @@
 }
 
 .site-header-navigation h1 a {
-    color: var(--color-body-bgrd);
+    color: var(--color-header-link);
     font-size: 25px;
     text-decoration: none;
 
@@ -59,7 +58,7 @@
 }
 
 .site-header-nav li a:hover {
-    color: var(--color-body-bgrd);
+    color: var(--color-header-link-hover);
 }
 
 
