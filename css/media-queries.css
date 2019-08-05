@@ -1,5 +1,56 @@
+@media (max-width: 1600px) {
+    .site-header-navigation {
+        padding-top: 0;
+    }
+}
+
 @media (max-width: 1400px) {
     .site-header-navigation {
        padding-top: 0;
+    }
+}
+
+@media (max-width: 1050px) {
+    .site-header-navigation h1 a {
+        font-size: 20px;
+    }
+
+    .site-header-nav li a {
+        font-size: 20px;
+    }
+
+    .social-media li a {
+        width: 30px;
+        height: 30px;
+        font-size: 17px;
+        line-height: 1.8;
+    }
+
+    .article-image a img{
+        overflow: hidden;
+        flex: 0 0 100%;
+        height: 29.7em;
+        background-size: cover;
+    }
+
+    .article-image{
+        display: flex;
+        flex: 0 0 100%;
+    }
+
+    .article-s {
+        height: 29.7em;
+    }
+
+    .article-s h2{
+        font-size: 20px;
+    }
+
+    .article-title{
+        font-size: 2em !important;
+    }
+
+    .article-date{
+        font-size: 1em;
     }
 }
