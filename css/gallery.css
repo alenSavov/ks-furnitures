@@ -1,8 +1,8 @@
 .gallery-wrapper {
     width: 80vw;
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 .gallery-title {
