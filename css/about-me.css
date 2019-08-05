@@ -1,10 +1,25 @@
 .about-me-wrapper {
-    font: var(--font-size-body)/1.9 "Muli", sans-serif;
-    color: rgb(42,47,54);
+    font: var(--font-size-body-larger)/1.9 "Muli", sans-serif;
+    /*color: rgb(42,47,54);*/
 }
 
 .about-me-wrapper p {
     color: var(--color-body-text);
     font-size: 1.1em;
     letter-spacing: 1.3px;
+    line-height: 40px;
+}
+
+.about-me-name{
+    font-weight: 900;
+    font-style: italic;
+    color: var(--color-primary-blue-button);
+}
+
+span{
+    color: var(--color-primary-blue-button);
+}
+
+p{
+    margin: 1.8em 0;
 }
