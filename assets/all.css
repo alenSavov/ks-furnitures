@@ -648,20 +648,20 @@ body.lb-disable-scrolling {
   padding-left: 8%;
   color: var(--article-title-color-in-project); }
 
-@import url("variables.css");
-@import url("typography.css");
-@import url("layout.css");
-@import url("header.css");
-@import url("main.css");
-@import url("buttons.css");
-@import url("contact.css");
-@import url("social-media-icons.css");
-@import url("project.css");
-@import url("media-queries.css");
-@import url("gallery.css");
-@import url("about-me.css");
-@import url("lightbox.min.css");
-@import url("article.css");
+@import url("variables.scss");
+@import url("typography.scss");
+@import url("layout.scss");
+@import url("header.scss");
+@import url("main.scss");
+@import url("buttons.scss");
+@import url("contact.scss");
+@import url("social-media-icons.scss");
+@import url("project.scss");
+@import url("media-queries.scss");
+@import url("gallery.scss");
+@import url("about-me.scss");
+@import url("lightbox.min.scss");
+@import url("article.scss");
 
 .social-media {
   display: flex;
@@ -731,7 +731,7 @@ body.lb-disable-scrolling {
 
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i|Merriweather:400,400i,700,700i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400&display=swap");
-@import url("variables.css");
+@import url("variables.scss");
 *, *:before, *:after {
   margin: 0;
   padding: 0;
