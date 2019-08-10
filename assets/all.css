@@ -50,7 +50,7 @@ article.article {
 .article-image img {
   overflow: hidden;
   flex: 0 0 100%;
-  height: 38.700em;
+  height: 53.700em;
   background-size: cover; }
 
 .article-content {
@@ -575,7 +575,7 @@ body.lb-disable-scrolling {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  height: 38.700em;
+  height: 53.700em;
   transition: 0.7s ease-out;
   pointer-events: none; }
 
